@@ -35,19 +35,23 @@ a{
 
 /* Header css */
 #header{
-  background-color: #E2DFDF;
-  color: #333;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
 }
 
 #header h1{
-  font-size: 60px;
+  font-size: 55px;
 }
 
 #header h2{
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 /* Banner css */
+
+#banner {
+  background-color: antiquewhite;
+}
 
 #banner #profile-img{
   width: 160px;
@@ -56,6 +60,7 @@ a{
   margin-top: -130px;
   border: 10px solid white;
   margin-bottom: 25px;
+ 
 }
 
 #social-list li{
@@ -126,7 +131,7 @@ background-color: antiquewhite;
 
 /* Footer css */
 #footer{
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.555);
   color: white;
 }
 
